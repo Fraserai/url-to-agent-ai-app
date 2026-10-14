@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --font-dm-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-fraunces: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  }
+
+  * {
+    @apply border-line;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink antialiased;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .page-shell {
+    @apply min-h-screen bg-cream text-ink;
+  }
+
+  .card {
+    @apply rounded-[18px] border border-line bg-white shadow-card;
+  }
+
+  .fade-stagger > * {
+    animation: fadeUp 0.4s ease both;
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "starter",
+    "name": "Starter",
+    "tagline": "For local businesses getting started",
+    "setup": 500,
+    "monthly": 300,
+    "annual": 250,
+    "features": [
+      "AI agent trained on your website",
+      "Auto-deploy to your site",
+      "Up to 500 conversations/mo",
+      "Lead capture & email alerts",
+      "Brand colour matching",
+      "Email support"
+    ],
+    "cta": "Get Started",
+    "popular": false
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "tagline": "For busy businesses that need more",
+    "setup": 1000,
+    "monthly": 500,
+    "annual": 420,
+    "features": [
+      "Everything in Starter, plus:",
+      "Up to 2,000 conversations/mo",
+      "Conversation history & inbox",
+      "Analytics dashboard",
+      "Edit agent knowledge anytime",
+      "Priority email & chat support"
+    ],
+    "cta": "Get Started",
+    "popular": true
+  },
+  {
+    "id": "premium",
+    "name": "Premium",
+    "tagline": "For businesses that want it all",
+    "setup": 2500,
+    "monthly": 1000,
+    "annual": 850,
+    "features": [
+      "Everything in Growth, plus:",
+      "Unlimited conversations",
+      "CRM integration",
+      "Booking system connection",
+      "White-glove onboarding call",
+      "Dedicated account manager"
+    ],
+    "cta": "Contact Us",
+    "popular": false
+  }
+]
